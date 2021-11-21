@@ -169,7 +169,7 @@ public class CustomerMainJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Serial-No", "City", "Restaurant", "Total Price", "Ordered On", "Status", "Instructions"
+                "OrderId", "City", "Restaurant", "Total Price", "Ordered On", "Status", "Instructions"
             }
         ) {
             Class[] types = new Class [] {
@@ -199,7 +199,7 @@ public class CustomerMainJPanel extends javax.swing.JPanel {
             }
         });
 
-        specialInstructionsjLabel.setText("Special Instructions :");
+        specialInstructionsjLabel.setText("Add Delivery Instructions :");
 
         headerjLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
         headerjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -213,7 +213,7 @@ public class CustomerMainJPanel extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
-                "Serial-No", "Menu Item", "Price"
+                "OrderId", "Menu Item", "Price"
             }
         ) {
             Class[] types = new Class [] {
@@ -277,9 +277,9 @@ public class CustomerMainJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 730, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(specialInstructionsjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(specialInstructionsjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(specialInstructionsjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(38, 38, 38)
+                                .addComponent(specialInstructionsjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(45, 45, 45)
                                 .addComponent(btnOrder)))))
                 .addContainerGap(166, Short.MAX_VALUE))
@@ -303,11 +303,11 @@ public class CustomerMainJPanel extends javax.swing.JPanel {
                     .addComponent(btnOrder)
                     .addComponent(specialInstructionsjLabel)
                     .addComponent(specialInstructionsjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
+                .addGap(56, 56, 56)
                 .addComponent(headerjLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(118, Short.MAX_VALUE))
+                .addContainerGap(94, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
