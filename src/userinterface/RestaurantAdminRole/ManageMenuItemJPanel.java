@@ -103,7 +103,7 @@ public class ManageMenuItemJPanel extends javax.swing.JPanel {
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Manage Menu Items");
 
-        deliveryPersonsjLabel.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
+        deliveryPersonsjLabel.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         deliveryPersonsjLabel.setText("MenuItems List");
 
         tblMenuItemsList.setModel(new javax.swing.table.DefaultTableModel(
@@ -111,7 +111,7 @@ public class ManageMenuItemJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "S-No", "Item Name", "Price Per-dish"
+                "Item Number", "Item Name", "Price "
             }
         ) {
             Class[] types = new Class [] {

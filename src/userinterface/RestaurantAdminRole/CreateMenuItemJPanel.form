@@ -98,9 +98,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="menuNamejLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="13" style="1"/>
-        </Property>
         <Property name="horizontalAlignment" type="int" value="4"/>
         <Property name="text" type="java.lang.String" value="Menu Name :"/>
       </Properties>
@@ -109,9 +106,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="pricejLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="13" style="1"/>
-        </Property>
         <Property name="horizontalAlignment" type="int" value="4"/>
         <Property name="text" type="java.lang.String" value="Price :"/>
       </Properties>

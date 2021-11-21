@@ -65,11 +65,9 @@ public class CreateMenuItemJPanel extends javax.swing.JPanel {
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Add Menu Item");
 
-        menuNamejLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         menuNamejLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         menuNamejLabel.setText("Menu Name :");
 
-        pricejLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         pricejLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         pricejLabel.setText("Price :");
 

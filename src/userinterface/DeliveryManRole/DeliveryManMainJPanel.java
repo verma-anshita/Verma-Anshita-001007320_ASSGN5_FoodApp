@@ -120,7 +120,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Serial-No", "CustomerName", "SpecialRequests", "Total Price", "Status", "AssignedBy", "Restaurant"
+                "OrderId", "CustomerName", "Instructions", "Total Price", "Status", "AssignedBy", "Restaurant"
             }
         ) {
             Class[] types = new Class [] {
