@@ -57,7 +57,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setText("Manage Restaurant");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 380, -1));
 
-        btnManageRestaurant.setText("Manage Restaurant Info");
+        btnManageRestaurant.setText("Manage Restaurant");
         btnManageRestaurant.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnManageRestaurantActionPerformed(evt);

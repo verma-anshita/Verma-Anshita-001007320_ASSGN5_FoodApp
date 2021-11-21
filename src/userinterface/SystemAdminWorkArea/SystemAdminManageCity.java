@@ -67,21 +67,21 @@ public class SystemAdminManageCity extends javax.swing.JPanel {
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Manage Data in the city : ");
 
-        manageRestaurantjButton.setText("Manage Restaurants >");
+        manageRestaurantjButton.setText("Manage Restaurants ");
         manageRestaurantjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageRestaurantjButtonActionPerformed(evt);
             }
         });
 
-        manageCustomersjButton.setText("Manage Customers >");
+        manageCustomersjButton.setText("Manage Customers ");
         manageCustomersjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageCustomersjButtonActionPerformed(evt);
             }
         });
 
-        manageDeliveryPersonsjButton.setText("Manage DeliveryPersons >");
+        manageDeliveryPersonsjButton.setText("Manage DeliveryPersons ");
         manageDeliveryPersonsjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageDeliveryPersonsjButtonActionPerformed(evt);

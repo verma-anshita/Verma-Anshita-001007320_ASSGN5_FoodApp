@@ -73,9 +73,9 @@ public class UpdateMenuItemJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        headerjLabel.setText("Update Menu Item");
+        headerjLabel.setText("Update Menu ");
 
         menuNamejLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         menuNamejLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);

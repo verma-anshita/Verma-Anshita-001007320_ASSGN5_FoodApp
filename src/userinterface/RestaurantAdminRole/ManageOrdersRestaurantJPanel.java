@@ -143,7 +143,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Serial-No", "CustomerName", "SpecialRequests", "Total Price", "Status", "DeliveryMan"
+                "OrderId", "CustomerName", "SpecialRequests", "Total Price", "Status", "DeliveryMan"
             }
         ) {
             Class[] types = new Class [] {
@@ -215,7 +215,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Serial-No", "CustomerName", "SpecialRequests", "Total Price", "Status", "DeliveryMan"
+                "OrderId", "CustomerName", "SpecialRequests", "Total Price", "Status", "DeliveryMan"
             }
         ) {
             Class[] types = new Class [] {

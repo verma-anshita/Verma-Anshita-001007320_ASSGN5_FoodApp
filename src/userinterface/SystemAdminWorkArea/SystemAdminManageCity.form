@@ -74,7 +74,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="manageRestaurantjButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Manage Restaurants &gt;"/>
+        <Property name="text" type="java.lang.String" value="Manage Restaurants "/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manageRestaurantjButtonActionPerformed"/>
@@ -82,7 +82,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="manageCustomersjButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Manage Customers &gt;"/>
+        <Property name="text" type="java.lang.String" value="Manage Customers "/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manageCustomersjButtonActionPerformed"/>
@@ -90,7 +90,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="manageDeliveryPersonsjButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Manage DeliveryPersons &gt;"/>
+        <Property name="text" type="java.lang.String" value="Manage DeliveryPersons "/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manageDeliveryPersonsjButtonActionPerformed"/>
