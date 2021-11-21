@@ -68,9 +68,9 @@ public class CreateNewCustomerJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        headerjLabel.setText("Create New Customer");
+        headerjLabel.setText("Add New Customer");
 
         namejLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         namejLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
