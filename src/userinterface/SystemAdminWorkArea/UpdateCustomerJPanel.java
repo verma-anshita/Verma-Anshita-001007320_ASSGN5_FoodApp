@@ -202,9 +202,9 @@ public class UpdateCustomerJPanel extends javax.swing.JPanel {
             customer.setModifiedBy(userAccount.getName());
             customer.setLastUpdatedDate(new Date());
 
-            JOptionPane.showMessageDialog(this, "Successfully Updated the Customer");
+            JOptionPane.showMessageDialog(this, "Successfully Updated");
         }else{
-            JOptionPane.showMessageDialog(this, "Error Updating the Customer.Please check the DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnUpdateActionPerformed
 

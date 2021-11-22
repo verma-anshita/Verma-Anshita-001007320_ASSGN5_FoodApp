@@ -152,9 +152,9 @@ public class UpdateMenuItemJPanel extends javax.swing.JPanel {
             menuItem.setPrice(Double.valueOf(pricejTextField.getText()));
             menuItem.setLastUpdatedDate(new Date());
             menuItem.setModifiedBy(userAccount.getName());
-            JOptionPane.showMessageDialog(this, "MenuItem Updated Successfully");
+            JOptionPane.showMessageDialog(this, " Updated Successfully");
         }else{
-            JOptionPane.showMessageDialog(this, "Error Updating MenuItem. Please check correct DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please input valid values");
         }
     }//GEN-LAST:event_savejButtonActionPerformed
 

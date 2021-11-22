@@ -196,9 +196,9 @@ public class UpdateRestaurantManagerJPanel extends javax.swing.JPanel {
             restaurantEmployee.setLastUpdatedDate(new Date());
             restaurantEmployee.setModifiedBy(userAccount.getName());
 
-            JOptionPane.showMessageDialog(this, "Successfully Updated the Restaurant Manager");
+            JOptionPane.showMessageDialog(this, "Successfully Updated");
         }else {
-            JOptionPane.showMessageDialog(this, "Error Updating the Restaurant Manager. Please check Datatypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnUpdateActionPerformed
 

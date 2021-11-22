@@ -359,7 +359,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
         int selectedIndex = currentOrdersjTable.getSelectedRow();
         if(selectedIndex<0 || deliveryManjComboBox.getSelectedIndex()<0) {
-            JOptionPane.showMessageDialog(this, "Please select a row or make sure you assign a delivery guy");
+            JOptionPane.showMessageDialog(this, "Please select a row ");
             return;
         }
         DefaultTableModel currentOrdersModel = (DefaultTableModel) currentOrdersjTable.getModel();
@@ -386,7 +386,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
         DefaultTableModel currentOrderItemModel = (DefaultTableModel) currentMenuItemjTable.getModel();
         currentOrderItemModel.setRowCount(0);
         int count=0;
-        System.out.println(order.getMenuItems().size());
+      //  System.out.println(order.getMenuItems().size());
         for(MenuItem menuItem:order.getMenuItems()){
             count++;
             Object[] row = new Object[2];

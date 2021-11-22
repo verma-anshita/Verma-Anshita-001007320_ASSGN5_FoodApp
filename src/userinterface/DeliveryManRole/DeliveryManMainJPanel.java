@@ -104,7 +104,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(0, 102, 102));
 
-        currentOrdersHeaderjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        currentOrdersHeaderjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         currentOrdersHeaderjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         currentOrdersHeaderjLabel.setText("Orders Assigned To Me");
 
@@ -140,7 +140,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
             currentOrdersjTable.getColumnModel().getColumn(0).setPreferredWidth(4);
         }
 
-        currentOrdersHeaderjLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        currentOrdersHeaderjLabel1.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         currentOrdersHeaderjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         currentOrdersHeaderjLabel1.setText("Orders Delivered By Me");
 

@@ -181,10 +181,10 @@ public class CreateNewRestaurantJPanel extends javax.swing.JPanel {
             cityNetwork.getRestaurantDirectory().getRestaurants().add(new Restaurant(restaurantName, phoneNo,
                 address, email));
 
-            JOptionPane.showMessageDialog(this, "Successfully saved New Restaurant");
+            JOptionPane.showMessageDialog(this, "Successfully Saved");
             resetUi();
         }else{
-            JOptionPane.showMessageDialog(this, "Error saving Restaurant. Please check datatypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnAddActionPerformed
 

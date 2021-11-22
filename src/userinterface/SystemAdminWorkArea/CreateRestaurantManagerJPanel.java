@@ -194,10 +194,10 @@ public class CreateRestaurantManagerJPanel extends javax.swing.JPanel {
             restaurant.getRestaurantEmployeeDirectory().getEmployeeList().add(new RestaurantEmployee(name, phoneNo, email, userName, password, Role.RestaurantAdmin,
                 new Date(), new Date(), userAccount.getName(), userAccount.getName()));
 
-            JOptionPane.showMessageDialog(this, "Successfully saved the Restaurant Manager");
+            JOptionPane.showMessageDialog(this, "Successfully Saved ");
             resetUi();
         }else {
-            JOptionPane.showMessageDialog(this, "Error saving the Restaurant Manager. Please check DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnAddActionPerformed
 

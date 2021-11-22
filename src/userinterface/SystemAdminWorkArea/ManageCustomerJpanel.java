@@ -194,7 +194,7 @@ public class ManageCustomerJpanel extends javax.swing.JPanel {
         } else {
             Customer selectedCustomer = (Customer) tblCustomerList.getValueAt(selectedRow, 1);
             ecoSystem.getCustomerDirectory().getCustomers().remove(selectedCustomer);
-            JOptionPane.showMessageDialog(null, "User Account deleted successfully");
+            JOptionPane.showMessageDialog(null, " Successfully deleted User Account ");
 
             populateCustomers();
         }

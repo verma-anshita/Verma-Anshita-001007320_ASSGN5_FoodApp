@@ -188,7 +188,7 @@ public class ManageMenuItemJPanel extends javax.swing.JPanel {
         } else {
             MenuItem selectedDeliveryPerson = (MenuItem) tblMenuItemsList.getValueAt(selectedRow, 1);
             restaurant.getMenuItems().remove(selectedDeliveryPerson);
-            JOptionPane.showMessageDialog(null, "Menu-Item deleted successfully");
+            JOptionPane.showMessageDialog(null, "Deleted successfully");
 
             populateMenuItems();
         }

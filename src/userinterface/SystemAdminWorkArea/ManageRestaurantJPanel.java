@@ -301,7 +301,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
         } else {
             Restaurant selectedRestaurant = (Restaurant) tblRestaurantsList.getValueAt(selectedRow, 1);
             cityNetwork.getRestaurantDirectory().getRestaurants().remove(selectedRestaurant);
-            JOptionPane.showMessageDialog(null, "Restaurant deleted successfully");
+            JOptionPane.showMessageDialog(null, "successfully deleted Restaurant  ");
 
             populateRestaurants();
         }

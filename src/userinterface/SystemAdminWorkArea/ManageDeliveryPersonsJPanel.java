@@ -203,7 +203,7 @@ public class ManageDeliveryPersonsJPanel extends javax.swing.JPanel {
         } else {
             DeliveryMan selectedDeliveryPerson = (DeliveryMan) tblDeliveryPersonsList.getValueAt(selectedRow, 1);
             cityNetwork.getDeliveryManDirectory().getDeliveryMan().remove(selectedDeliveryPerson);
-            JOptionPane.showMessageDialog(null, "DeliveryMan Account deleted successfully");
+            JOptionPane.showMessageDialog(null, "Successfully deleted DeliveryMan Account ");
 
             populateDeliveryPersons();
         }

@@ -198,10 +198,10 @@ public class CreateNewCustomerJPanel extends javax.swing.JPanel {
                 new Date(), new Date(), userAccount.getName(), userAccount.getName());
             ecoSystem.getCustomerDirectory().getCustomers().add(customer);
 
-            JOptionPane.showMessageDialog(this, "Successfully saved new Customer");
+            JOptionPane.showMessageDialog(this, "Successfully Saved ");
             resetUi();
         }else{
-            JOptionPane.showMessageDialog(this, "Error saving new Customer. Please check DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnAddActionPerformed
 

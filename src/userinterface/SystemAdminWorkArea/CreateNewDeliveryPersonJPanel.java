@@ -199,10 +199,10 @@ public class CreateNewDeliveryPersonJPanel extends javax.swing.JPanel {
                 new Date(), new Date(), userAccount.getName(), userAccount.getName());
             cityNetwork.getDeliveryManDirectory().getDeliveryMan().add(deliveryMan);
 
-            JOptionPane.showMessageDialog(this, "Successfully saved the Delivery Person");
+            JOptionPane.showMessageDialog(this, "Successfully Saved ");
             resetUi();
         }else{
-            JOptionPane.showMessageDialog(this, "Error saving the Delivery Person. Please check DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnAddActionPerformed
 

@@ -171,9 +171,9 @@ public class UpdateRestaurantInfoJPanel extends javax.swing.JPanel {
             restaurant.setEmail(emailjTextField.getText());
             restaurant.setRestaurantName(restaurantNamejTextField.getText());
             restaurant.setPhoneNo(phoneNojTextField.getText());
-            JOptionPane.showMessageDialog(this, "Successfully updated Restaurant Info");
+            JOptionPane.showMessageDialog(this, "Successfully Updated ");
         }else{
-            JOptionPane.showMessageDialog(this, "Error updating Restaurant. Please check datatypes");
+            JOptionPane.showMessageDialog(this, "Error ! Please provide valid values");
         }
     }//GEN-LAST:event_updatejButtonActionPerformed
 

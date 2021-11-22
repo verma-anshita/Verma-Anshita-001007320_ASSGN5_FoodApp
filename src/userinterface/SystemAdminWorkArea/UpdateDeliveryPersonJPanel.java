@@ -203,9 +203,9 @@ public class UpdateDeliveryPersonJPanel extends javax.swing.JPanel {
             deliveryMan.setModifiedBy(userAccount.getName());
             deliveryMan.setLastUpdatedDate(new Date());
 
-            JOptionPane.showMessageDialog(this, "Successfully Updated the Delivery Person Info");
+            JOptionPane.showMessageDialog(this, "Successfully Updated ");
         }else {
-            JOptionPane.showMessageDialog(this, "Error Updating the Delivery Person Info. Please check DataTypes");
+            JOptionPane.showMessageDialog(this, "Error! Please enter valid values");
         }
     }//GEN-LAST:event_btnUpdateActionPerformed
 

@@ -50,7 +50,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Restaurant");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 380, -1));
