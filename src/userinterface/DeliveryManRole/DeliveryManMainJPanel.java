@@ -101,10 +101,6 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         deliveredOrdersjTable = new javax.swing.JTable();
         btnDelivered = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        feedbackjTextField = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        ratingjComboBox = new javax.swing.JComboBox<>();
 
         setBackground(new java.awt.Color(0, 102, 102));
 
@@ -156,7 +152,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Serial-No", "CustomerName", "SpecialRequests", "Total Price", "Status", "AssignedBy", "Restaurant"
+                "OrderId", "CustomerName", "SpecialRequests", "Total Price", "Status", "AssignedBy", "Restaurant"
             }
         ) {
             Class[] types = new Class [] {
@@ -192,15 +188,6 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
-        jLabel1.setText("Feedback :");
-
-        jLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
-        jLabel2.setText("Rating :");
-
-        ratingjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5" }));
-        ratingjComboBox.setSelectedIndex(4);
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -215,17 +202,8 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
                         .addComponent(currentOrdersHeaderjLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 326, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(58, 58, 58)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(feedbackjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(52, 52, 52)
-                                .addComponent(jLabel2)
-                                .addGap(18, 18, 18)
-                                .addComponent(ratingjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnDelivered))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btnDelivered)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)))))
@@ -239,12 +217,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
                 .addGap(33, 33, 33)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnDelivered)
-                    .addComponent(jLabel1)
-                    .addComponent(feedbackjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2)
-                    .addComponent(ratingjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(btnDelivered)
                 .addGap(39, 39, 39)
                 .addComponent(currentOrdersHeaderjLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
@@ -268,8 +241,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
         
         DefaultTableModel currentOrdersModel = (DefaultTableModel) currentOrdersjTable.getModel();
         Order order = (Order) currentOrdersModel.getValueAt(selectedRow, 3);
-        order.setDeliveryPersonCustomerRating(ratingjComboBox.getSelectedIndex()+1);
-        order.setDeliveryPersonFeedback(feedbackjTextField.getText());
+        
         order.setOrderStatus(OrderStatus.Delivered);
         order.setLastUpdatedDate(new Date());
         order.setModifiedBy(userAccount.getName());
@@ -283,11 +255,7 @@ public class DeliveryManMainJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel currentOrdersHeaderjLabel1;
     private javax.swing.JTable currentOrdersjTable;
     private javax.swing.JTable deliveredOrdersjTable;
-    private javax.swing.JTextField feedbackjTextField;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JComboBox<String> ratingjComboBox;
     // End of variables declaration//GEN-END:variables
 }

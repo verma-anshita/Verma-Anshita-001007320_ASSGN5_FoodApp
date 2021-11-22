@@ -31,7 +31,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         this.userAccount = userLogged;
         this.restaurant = restaurant;
         this.cityNetwork = cityNetwork;
-        valueLabel.setText(restaurant.getRestaurantName());
+        
     }
     
     /** This method is called from within the constructor to
@@ -46,8 +46,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         btnManageRestaurant = new javax.swing.JButton();
         btnManageOrder = new javax.swing.JButton();
         btnManage = new javax.swing.JButton();
-        enterpriseLabel = new javax.swing.JLabel();
-        valueLabel = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -80,13 +78,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnManage, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, -1, -1));
-
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        enterpriseLabel.setText("Restaurant :");
-        add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, 120, 30));
-
-        valueLabel.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 170, 20));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnManageRestaurantActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageRestaurantActionPerformed
@@ -116,9 +107,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnManage;
     private javax.swing.JButton btnManageOrder;
     private javax.swing.JButton btnManageRestaurant;
-    private javax.swing.JLabel enterpriseLabel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel valueLabel;
     // End of variables declaration//GEN-END:variables
     
 }

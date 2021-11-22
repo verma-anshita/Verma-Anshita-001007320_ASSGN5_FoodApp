@@ -43,11 +43,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             cityjComboBox.addItem(cityNetwork.getCityName().name());
         }
         
-        addCityjComboBox.removeAllItems();
-        for(String cityName:CityName.getCitiesList()){
-            addCityjComboBox.addItem(cityName);
-        }
-        addCityjComboBox.setSelectedIndex(addCityjComboBox.getItemCount()-1);
+      
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -62,9 +58,6 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         cityjComboBox = new javax.swing.JComboBox<>();
         headerjLabel = new javax.swing.JLabel();
         proceedjButton = new javax.swing.JButton();
-        headerjLabel1 = new javax.swing.JLabel();
-        addCityjComboBox = new javax.swing.JComboBox<>();
-        addCityjButton = new javax.swing.JButton();
 
         setLayout(new java.awt.BorderLayout());
 
@@ -72,23 +65,12 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        headerjLabel.setText("Please Select a City to Manage");
+        headerjLabel.setText("Select A City");
 
         proceedjButton.setText("Proceed ");
         proceedjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 proceedjButtonActionPerformed(evt);
-            }
-        });
-
-        headerjLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
-        headerjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        headerjLabel1.setText("Select a City to Add");
-
-        addCityjButton.setText("Add ");
-        addCityjButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addCityjButtonActionPerformed(evt);
             }
         });
 
@@ -100,41 +82,24 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(52, 52, 52)
-                        .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 474, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(headerjLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 383, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 474, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(177, 177, 177)
-                                .addComponent(cityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(242, 242, 242)
-                                .addComponent(proceedjButton)))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(209, 209, 209)
-                                .addComponent(addCityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(246, 246, 246)
-                                .addComponent(addCityjButton)))))
-                .addContainerGap(172, Short.MAX_VALUE))
+                        .addGap(177, 177, 177)
+                        .addComponent(cityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(242, 242, 242)
+                        .addComponent(proceedjButton)))
+                .addContainerGap(561, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(58, 58, 58)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(headerjLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(49, 49, 49)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(addCityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(cityjComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(proceedjButton)
-                    .addComponent(addCityjButton))
+                .addComponent(proceedjButton)
                 .addContainerGap(269, Short.MAX_VALUE))
         );
 
@@ -151,27 +116,10 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         cardLayout.next(userProcessContainer);
     }//GEN-LAST:event_proceedjButtonActionPerformed
 
-    private void addCityjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCityjButtonActionPerformed
-        // TODO add your handling code here:
-        
-        for(CityNetwork cityNetwork:ecosystem.getCityNetworks()) {
-            if(cityNetwork.getCityName().name().equalsIgnoreCase((String) addCityjComboBox.getSelectedItem())){
-                JOptionPane.showMessageDialog(this, "City Already Exists. Please select another one");
-                return;
-            }
-        }
-        ecosystem.getCityNetworks().add(new CityNetwork(CityName.valueOf((String) addCityjComboBox.getSelectedItem()), new Date(), 
-                new Date(), userLogged.getName(), userLogged.getName()));
-        populateCities();
-    }//GEN-LAST:event_addCityjButtonActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton addCityjButton;
-    private javax.swing.JComboBox<String> addCityjComboBox;
     private javax.swing.JComboBox<String> cityjComboBox;
     private javax.swing.JLabel headerjLabel;
-    private javax.swing.JLabel headerjLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton proceedjButton;
     // End of variables declaration//GEN-END:variables

@@ -174,7 +174,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "S-No", "Manager Name", "UserName", "Password", "Phone No", "Email"
+                "Id", "Manager Name", "UserName", "Password", "Phone No", "Email"
             }
         ) {
             Class[] types = new Class [] {
