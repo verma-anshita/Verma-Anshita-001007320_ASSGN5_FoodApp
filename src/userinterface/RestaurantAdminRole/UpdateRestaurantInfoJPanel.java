@@ -74,7 +74,7 @@ public class UpdateRestaurantInfoJPanel extends javax.swing.JPanel {
 
         headerjLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        headerjLabel.setText("Update Restaurant Infonformation");
+        headerjLabel.setText("Update Restaurant Information");
 
         restaurantNamejLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         restaurantNamejLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);

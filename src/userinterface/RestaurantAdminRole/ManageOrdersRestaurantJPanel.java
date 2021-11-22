@@ -131,7 +131,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        currentOrdersHeaderjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        currentOrdersHeaderjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         currentOrdersHeaderjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         currentOrdersHeaderjLabel.setText("Orders On Plate");
 
@@ -203,7 +203,7 @@ public class ManageOrdersRestaurantJPanel extends javax.swing.JPanel {
             currentMenuItemjTable.getColumnModel().getColumn(0).setPreferredWidth(5);
         }
 
-        currentOrdersHeaderjLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        currentOrdersHeaderjLabel1.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         currentOrdersHeaderjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         currentOrdersHeaderjLabel1.setText("Orders Delivered");
 

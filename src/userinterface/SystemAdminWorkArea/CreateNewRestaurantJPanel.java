@@ -63,7 +63,7 @@ public class CreateNewRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Add New Restaurant");
 

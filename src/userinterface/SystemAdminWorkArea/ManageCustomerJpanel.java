@@ -121,11 +121,11 @@ public class ManageCustomerJpanel extends javax.swing.JPanel {
         headercustomerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headercustomerjLabel.setText("Customer List");
 
-        headerjLabel.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Manage Customers");
 
-        btnCreate.setText("Create >");
+        btnCreate.setText("Add");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateActionPerformed(evt);

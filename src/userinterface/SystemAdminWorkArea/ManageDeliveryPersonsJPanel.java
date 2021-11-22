@@ -86,7 +86,7 @@ public class ManageDeliveryPersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Manage Delivery Persons");
 
@@ -128,7 +128,7 @@ public class ManageDeliveryPersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreate.setText("Create >");
+        btnCreate.setText("Add");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateActionPerformed(evt);

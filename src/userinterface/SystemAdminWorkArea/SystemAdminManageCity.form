@@ -28,18 +28,13 @@
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="headerjLabel" min="-2" pref="411" max="-2" attributes="0"/>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="manageRestaurantjButton" linkSize="1" min="-2" pref="192" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="headerjLabel" min="-2" pref="450" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="manageDeliveryPersonsjButton" linkSize="1" max="32767" attributes="0"/>
-                          <Component id="manageCustomersjButton" linkSize="1" max="32767" attributes="0"/>
-                      </Group>
+                  <Component id="manageRestaurantjButton" linkSize="1" alignment="1" min="-2" pref="192" max="-2" attributes="0"/>
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="manageDeliveryPersonsjButton" linkSize="1" max="32767" attributes="0"/>
+                      <Component id="manageCustomersjButton" linkSize="1" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
@@ -49,17 +44,20 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
-              <Component id="manageRestaurantjButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="manageCustomersjButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                      <Component id="manageRestaurantjButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="manageDeliveryPersonsjButton" min="-2" max="-2" attributes="0"/>
+                      <Component id="manageCustomersjButton" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="headerjLabel" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                      <Component id="headerjLabel" min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
               </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="manageDeliveryPersonsjButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="142" max="32767" attributes="0"/>
               <Component id="btnBack" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
@@ -79,7 +77,7 @@
     <Component class="javax.swing.JLabel" name="headerjLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="24" style="3"/>
+          <Font name="Lucida Sans" size="36" style="0"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="QuickEats:"/>

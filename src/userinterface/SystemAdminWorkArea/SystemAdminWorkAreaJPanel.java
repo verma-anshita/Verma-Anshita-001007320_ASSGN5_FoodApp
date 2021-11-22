@@ -63,7 +63,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Select A City");
 

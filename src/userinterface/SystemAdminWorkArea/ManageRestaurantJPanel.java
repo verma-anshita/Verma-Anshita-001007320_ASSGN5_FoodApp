@@ -97,7 +97,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreate.setText("Create >");
+        btnCreate.setText("Add");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateActionPerformed(evt);
@@ -118,7 +118,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerjLabel.setText("Manage Restaurants");
 
@@ -165,7 +165,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        headerManagersjLabel.setFont(new java.awt.Font("Lucida Grande", 3, 18)); // NOI18N
+        headerManagersjLabel.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         headerManagersjLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         headerManagersjLabel.setText("Manage Restaurant Managers");
 
@@ -211,7 +211,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreateManagers.setText("Create >");
+        btnCreateManagers.setText("Add");
         btnCreateManagers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateManagersActionPerformed(evt);
@@ -254,13 +254,13 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
                                         .addComponent(btnCreateManagers, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(212, 212, 212)
-                        .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(207, 207, 207)
-                        .addComponent(headerManagersjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(118, Short.MAX_VALUE))
+                        .addComponent(headerManagersjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(91, 91, 91)
+                        .addComponent(headerjLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(134, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
